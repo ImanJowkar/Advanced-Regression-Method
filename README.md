@@ -10,7 +10,7 @@
 - bagging regression
 - random forest regression
 - gradient boost regression(GB)
-- Xtreem Gradient Boost(XGB)
+- eXtrem Gradient Boost(XGB)
 - CatBoost
 - LightBoost
 
