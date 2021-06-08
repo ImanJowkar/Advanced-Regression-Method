@@ -37,8 +37,9 @@ In this project, we want to predict the salary of hitters in hitters dataset wit
 ![light](https://user-images.githubusercontent.com/77024269/121201725-fae02380-c889-11eb-9f6f-5fe1fd779874.png)
 
 
-```{r this}
+```{Python}
+x = 2
+print(x)
 
-print(2)
 
 ```
