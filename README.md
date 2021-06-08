@@ -2,7 +2,7 @@
 
 ![hit](https://user-images.githubusercontent.com/77024269/121198422-5d83f000-c887-11eb-88ef-d849e10aec8d.jpg)
 
-## objective: Regression Analysis -> predict the salary of hitters
+## objective: Regression Analysis, predict the salary of hitters
 
 In this project, we want to predict the salary of hitters in hitters dataset with a different approach of modern regression such as:
 ### Model1: **linear regression**
