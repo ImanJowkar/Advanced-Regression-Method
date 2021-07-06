@@ -1059,6 +1059,10 @@ y_pred_model8 = model8.predict(X_test)
 y_pred_model8 = np.exp(y_pred_model8)
 abs_err_model8 = np.abs(y_pred_model8 - y_test)
 
+
+# In[ ]:
+
+
 from sklearn.model_selection import RandomizedSearchCV
 
 learning_rate = [0.01,0.1, 0.2, 0.3, 0.4, 0.5]
@@ -1085,6 +1089,8 @@ rf_random = RandomizedSearchCV(estimator = model8,
 
 rf_random.fit(X_train, logy_train);
 rf_random.best_params_
+
+
 # In[97]:
 
 
@@ -1186,6 +1192,10 @@ y_pred_model9 = model9.predict(X_test)
 y_pred_model9 = np.exp(y_pred_model9)
 abs_err_model9 = np.abs(y_pred_model9 - y_test)
 
+
+# In[ ]:
+
+
 params = {
     "gamma": uniform(0, 0.5),
     "learning_rate": uniform(0.03, 0.3), # default 0.1 
@@ -1205,6 +1215,8 @@ xgb = RandomizedSearchCV(estimator = model9,
 
 xgb.fit(X_train, logy_train);
 xgb.best_params_
+
+
 # In[105]:
 
 
